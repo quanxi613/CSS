@@ -152,17 +152,19 @@ E ~ F：选择与元素E有相同父元素，且位于E之后的所有元素F
 
 遵循“LOVE HATE”原则
 
-first-child伪类：选择元素的第一个子元素。必须声明DTD，才能在IE中生效
+E：first-child：选择元素E的第一个子元素。必须声明DTD，才能在IE中生效
 
-lang伪类：为不同的语言定义特殊的规则
+E：last-child：选择元素E的最后一个子元素。兼容性：IE9+，其他主流浏览器
 
-E F:nth-child(n):选择元素E的第n个子元素F
+E：lang：为不同的语言定义特殊的规则
 
-E F:nth-last-child(n)：选择元素E的倒数第n个子元素的元素F
+E F:nth-child(n):选择元素E的第n个子元素F。兼容性：IE9+，其他主流浏览器
 
-E:nth-of-type(n)：选择元素E的第n个指定类型子元素
+E F:nth-last-child(n)：选择元素E的倒数第n个子元素的元素F。兼容性：IE9+，其他主流浏览器
 
-E:nth-lash-of-type(n)：选择元素E的倒数第n个指定类型子元素
+E:nth-of-type(n)：选择元素E的第n个指定类型子元素。兼容性：IE9+，其他主流浏览器
+
+E:nth-lash-of-type(n)：选择元素E的倒数第n个指定类型子元素。兼容性：IE9+，其他主流浏览器
 
 
 
