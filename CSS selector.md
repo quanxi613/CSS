@@ -152,6 +152,20 @@ E ~ F：选择与元素E有相同父元素，且位于E之后的所有元素F
 
 遵循“LOVE HATE”原则
 
+E:nth-child()选择某个元素的一个或多个特定的子元素
+
+E:nth-child(length);参数是具体数字 length为整数
+
+E:nth-child(n);参数是n,n从0开始计算
+
+E:nth-child(n*length)n的倍数选择，n从0开始算
+
+E:nth-child(n+length);选择大于length后面的元素
+
+E:nth-child(-n+length);选择小于length前面的元素
+
+E:nth-child(n*length+1);表示隔几选一
+
 E：first-child：选择元素E的第一个子元素。必须声明DTD，才能在IE中生效
 
 E：last-child：选择元素E的最后一个子元素。兼容性：IE9+，其他主流浏览器
@@ -162,7 +176,13 @@ E F:nth-child(n):选择元素E的第n个子元素F。兼容性：IE9+，其他�
 
 E F:nth-last-child(n)：选择元素E的倒数第n个子元素的元素F。兼容性：IE9+，其他主流浏览器
 
-E:nth-of-type(n)：选择元素E的第n个指定类型子元素。兼容性：IE9+，其他主流浏览器
+E:nth-of-type(n)：选择元素E的第n个指定类型的子元素。兼容性：IE9+，其他主流浏览器
+
+这个选择器对用来定位元素中包含了好多不同类型的元素很有用处
+
+比如div下有好多p元素，li元素等，我们只需要p元素，且使其每隔一个p元素就有不同的样式
+
+`p:nth-of-type(even) {background-color: red;}`
 
 E:nth-lash-of-type(n)：选择元素E的倒数第n个指定类型子元素。兼容性：IE9+，其他主流浏览器
 
