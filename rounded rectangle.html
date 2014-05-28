@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<title>test</title>
+
+		<style type="text/css">
+
+
+		#wrap{
+
+			display: inline-block;
+			position: relative;
+			width: 340px;
+
+		}
+		
+		.content{
+			margin: 0 auto;
+			width: 300px;
+			height: 100px;
+			border: 2px solid #000;
+			padding: 16px;
+			
+		}
+
+		.corner1{
+			width: 20px;
+			height: 20px;
+			background: url(img/corner_left_top.jpg) no-repeat;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.corner2{
+			width: 20px;
+			height: 20px;
+			background: url(img/corner_right_top.jpg) no-repeat;
+			position: absolute;
+			right: 1px;
+			top: 0;
+		}
+		.corner3{
+			width: 20px;
+			height: 20px;
+			background: url(img/corner_left_bottom.jpg) no-repeat;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		.corner4{
+			width: 20px;
+			height: 20px;
+			background: url(img/corner_right_bottom.jpg) no-repeat;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+		
+		</style>
+		
+	</head>
+
+	<body>
+		
+		<div id="wrap">
+			<div class="content">内容</div>
+			<span class="corner1"></span>
+			<span class="corner2"></span>
+			<span class="corner3"></span>
+			<span class="corner4"></span>
+		</div>
+		
+		
+		
+	</body>
+</html>
