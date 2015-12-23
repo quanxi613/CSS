@@ -48,7 +48,7 @@
 效果图
 
 <figure>
-	<img src="img/collapsing1.jpg">
+	<img src="img/collapsing1.png">
 </figure>
 
 我们可以看到父元素和子元素发生了叠加，本来父元素的margin为50px，叠加后变成了100px
