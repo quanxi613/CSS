@@ -40,10 +40,8 @@
 举个栗子
 
 	<div style="border:1px solid red; width:100px;">
-	    <div style="margin:50px 0; background-color:green; height:50px; width:50px;">
-		    <div style="margin:20px 0;">
-		        <div style="margin:100px 0;">green</div>
-		    </div>
+	    <div style="margin:50px 0;background:blue;height:150px; width:50px;">      
+	        <div style="margin:100px 0;background-color:green;">green</div>      
 	    </div>
 	</div>
 
@@ -53,7 +51,7 @@
 	<img src="img/collapsing1.jpg">
 </figure>
 
-我们可以看到父元素和子元素发生了叠加，本来父元素的margin为30px，叠加后变成了50px
+我们可以看到父元素和子元素发生了叠加，本来父元素的margin为50px，叠加后变成了100px
 
 在看兄弟元素的情况
 
